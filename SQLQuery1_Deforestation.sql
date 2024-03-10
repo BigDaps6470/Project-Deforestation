@@ -4,6 +4,10 @@ select * from land_area;
 select * from forest_area;
 select * from region;
 
+''' SELECT TOTAL_AREA_SQ_MI, CASE WHEN TOTAL_AREA_SQ_MI IS NULL THEN 0 ELSE TOTAL_AREA_SQ_MI END FROM Land_Area; '''
+
+UPDATE Land_Area SET TOTAL_AREA_SQ_MI = CASE WHEN TOTAL_AREA_SQ_MI IS NULL THEN 0 ELSE TOTAL_AREA_SQ_MI END;
+
 --Question 1: What are the total number of countries involved in deforestation?
 
 SELECT COUNT(DISTINCT country_name) AS total_countries_involved
