@@ -24,7 +24,7 @@ WHERE land_area.total_area_sq_mi BETWEEN 75000 AND 150000; ```
 -- Question 3: Calculate average area in square miles for countries in the 'upper middle income region'. 
 -- Compare the result with the rest of the income categories.
 
-``` SELECT ````
+``` SELECT 
   r.income_group,
   AVG(l.total_area_sq_mi) AS average_area_sq_miles
 FROM
