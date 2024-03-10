@@ -6,21 +6,20 @@ select * from land_area;
 select * from forest_area;
 select * from region;
 
-SELECT TOTAL_AREA_SQ_MI, CASE WHEN TOTAL_AREA_SQ_MI IS NULL THEN 0 ELSE TOTAL_AREA_SQ_MI END FROM Land_Area;
+```SELECT TOTAL_AREA_SQ_MI, CASE WHEN TOTAL_AREA_SQ_MI IS NULL THEN 0 ELSE TOTAL_AREA_SQ_MI END FROM Land_Area;```
 
-UPDATE Land_Area SET TOTAL_AREA_SQ_MI = CASE WHEN TOTAL_AREA_SQ_MI IS NULL THEN 0 ELSE TOTAL_AREA_SQ_MI END;
+```UPDATE Land_Area SET TOTAL_AREA_SQ_MI = CASE WHEN TOTAL_AREA_SQ_MI IS NULL THEN 0 ELSE TOTAL_AREA_SQ_MI END;```
 
 --Question 1: What are the total number of countries involved in deforestation?
 
-SELECT COUNT(DISTINCT country_name) AS total_countries_involved
-FROM forest_area;
+```SELECT COUNT(DISTINCT country_name) AS total_countries_involved FROM forest_area;```
 
 --Question 2: Show the income groups of countries having total area ranging from 75,000 to 150,000 square meters?
 
-SELECT DISTINCT Land_Area.country_name, region.income_group
+```SELECT DISTINCT Land_Area.country_name, region.income_group
 FROM Land_Area
 JOIN region on Land_Area.country_code = region.country_code 
-WHERE land_area.total_area_sq_mi BETWEEN 75000 AND 150000;
+WHERE land_area.total_area_sq_mi BETWEEN 75000 AND 150000; ```
 
 -- Question 3: Calculate average area in square miles for countries in the 'upper middle income region'. 
 -- Compare the result with the rest of the income categories.
