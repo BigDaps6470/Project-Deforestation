@@ -46,7 +46,7 @@ JOIN
 WHERE
   r.income_group != 'Upper Middle Income'
 GROUP BY
-  r.income_group; ```
+  r.income_group; 
 
 
 -- Question 4: Determine the total forest area in square km for countries in the 'high income' group. 
