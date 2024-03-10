@@ -19,7 +19,7 @@ SELECT COUNT(DISTINCT country_name) AS total_countries_involved FROM forest_area
  SELECT DISTINCT Land_Area.country_name, region.income_group 
 FROM Land_Area 
 JOIN region on Land_Area.country_code = region.country_code 
-WHERE land_area.total_area_sq_mi BETWEEN 75000 AND 150000; ```
+WHERE land_area.total_area_sq_mi BETWEEN 75000 AND 150000; 
 
 -- Question 3: Calculate average area in square miles for countries in the 'upper middle income region'. 
 -- Compare the result with the rest of the income categories.
