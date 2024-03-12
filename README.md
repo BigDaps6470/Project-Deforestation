@@ -98,9 +98,7 @@ FROM
 WHERE
   area_rank = 1;
 
-
-
-![Q4](https://github.com/BigDaps6470/Project-Deforestation/assets/162059540/fbc026e7-854b-4489-891a-2975bd8778c9)
+![Q4](https://github.com/BigDaps6470/Project-Deforestation/assets/162059540/568110e0-718f-4b89-b23c-50fd95519878)
 
 
 
