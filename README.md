@@ -97,6 +97,8 @@ FROM
   ranked_forest_area
 WHERE
   area_rank = 1;
+![Q5](https://github.com/BigDaps6470/Project-Deforestation/assets/162059540/7e3bb346-a0eb-4359-a9b3-b45221f4d5b0)
+
 
 
 
