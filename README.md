@@ -1,7 +1,5 @@
 # Project-Deforestation
 
-Create database Deforestation;
-
 Create database Deforestation; 
 
 select * from land_area;
