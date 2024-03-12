@@ -6,6 +6,10 @@ select * from land_area;
 select * from forest_area;
 select * from region;
 
+DELETE FROM REGION WHERE REGION = 'WORLD';
+DELETE FROM land_area WHERE country_name = 'WORLD';
+DELETE FROM forest_area WHERE country_name = 'WORLD';
+
 
 SELECT TOTAL_AREA_SQ_MI, CASE WHEN TOTAL_AREA_SQ_MI IS NULL THEN 0 ELSE TOTAL_AREA_SQ_MI END FROM Land_Area;
 
