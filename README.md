@@ -100,10 +100,8 @@ WHERE
 
 
 
-![Q5](https://github.com/BigDaps6470/Project-Deforestation/assets/162059540/8f915cdd-09b7-4e09-9107-8298f1ad7019)
 
-
-
+![Q5](https://github.com/BigDaps6470/Project-Deforestation/assets/162059540/1fe0e6cc-e4ad-4f57-927f-a6a4573fc102)
 
 
 
