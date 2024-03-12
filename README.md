@@ -96,7 +96,8 @@ SELECT
 FROM
   ranked_forest_area
 WHERE
-  area_rank = 1; 
+  area_rank = 1;
+
 
 
 
